@@ -1,0 +1,24 @@
+@-webkit-keyframes _gm915 {
+    0% { -webkit-transform: translate3d(0px,-500px,0); -webkit-animation-timing-function: ease-in; }
+    50% { -webkit-transform: translate3d(0px,0px,0); -webkit-animation-timing-function: ease-out; }
+    75% { -webkit-transform: translate3d(0px,-20px,0); -webkit-animation-timing-function: ease-in; }
+    100% { -webkit-transform: translate3d(0px,0px,0); -webkit-animation-timing-function: ease-out; }
+}
+.js.csstransitions body #empresa .container .row .col-sm-6 p {
+    text-align: justify;
+}
+#empresa {
+    text-align: justify;
+}
+#justificado {
+    text-align: justify;
+}
+.js.csstransitions body #activities .container .row .col-sm-12 .tab-content #pvc .col-sm-8 {
+    text-align: justify;
+}
+.js.csstransitions body footer .container .row.text-center .col-sm-12 .row .col-sm-6 table tr td {
+    text-align: justify;
+}
+.js.csstransitions body footer .container .row.text-center .col-sm-12 .row .col-sm-6 table tr td {
+    color: #FFFFFF;
+}

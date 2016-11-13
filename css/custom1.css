@@ -1,0 +1,48 @@
+.gm-style .gm-style-mtc label,.gm-style .gm-style-mtc div{font-weight:400}
+.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px}
+
+@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}
+
+.gm-style{font-family:Roboto,Arial,sans-serif;font-size:11px;font-weight:400;text-decoration:none}
+
+/* CUSTOM BN */
+/* ------------------------------------------------- */
+body, html{
+    height:100%;
+}
+.cemPorcento{
+    width: 100%;
+    overflow: hidden;
+    min-height: 98%;
+    padding: 0;
+}
+.cemPorcento2{
+    width: 100%;
+    overflow: hidden;
+    min-height: 10%;
+    padding: 0;
+}
+.whd{
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+}
+/* para menores que 767 androids e tablets */
+@media (max-width: 767px) {
+    .bx-wrapper{
+        top: 70px;
+        min-height: 220px;
+    }
+    .bx-wrapper .bx-caption span{
+        font-size: 2em !important;
+        left: 60px;
+
+    }
+}
+/* para menores que 320 androids antigos */
+@media (max-width: 321px) {
+    .bx-wrapper .bx-caption span{
+        font-size: 1em !important;
+        bottom: -73px;
+    }
+}

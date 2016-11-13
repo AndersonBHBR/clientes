@@ -1,0 +1,58 @@
+.menu{
+    list-style:none; z-index: 999;
+}
+
+.menu li{
+    position:relative;
+}
+
+.menu li a{
+    color:#333;
+    text-decoration:none;
+    display:block;padding: 10px 15px;
+}
+
+.menu li a:hover{
+    color:#666;
+    background: #d5d5d5
+}
+
+.menu li ul{
+    position:absolute;
+    top:35px;
+    left:0;
+    background-color:#fff;
+    display:none;
+    z-index: 999;
+    padding: 5px 0px;
+}
+
+.menu li:hover ul, .menu li.over ul{
+    display:block;
+}
+
+.menu li ul li{
+    display:block;
+    width:150px;
+    text-align: left;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+    cursor: pointer;
+    border:none;
+}
+
+.nav-tabs {
+    text-align: left;
+}
+
+.img-responsive {
+    border-radius: 10px;
+}
+
+input, button, select, textarea {
+    border-radius: 6px;
+    padding: 10px;
+    border: none;
+    margin: 3px;
+}
